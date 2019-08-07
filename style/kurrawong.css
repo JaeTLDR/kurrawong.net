@@ -29,7 +29,7 @@ h2 {
 @font-face {
   font-family: Candara;
   src: local("Candara"),
-       url('../static/Candara.ttf');
+       url('/style/Candara.ttf');
 }
 
 a,
