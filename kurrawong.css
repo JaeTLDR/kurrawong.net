@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+p, li, a {
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: white;
+  display: block;
+  padding: 10px;
+}
+
+.candara {
+  font-family: Candara, sans-serif;
+  letter-spacing: -0.05em;
+}
+
+@font-face {
+  font-family: Candara;
+  src: local("Candara"),
+       url('../static/Candara.ttf');
+}
+
+a,
+.k-yellow {
+  color: rgb(255, 210, 0);
+}
+
+#header {
+  border-bottom: solid 5px #eee;
+}
+
+#klogo-container {
+  float:left;
+}
+#klogo {
+  width: 150px;
+  margin-right: 100px;
+}
+#title {
+  float:left;
+}
+#sep {
+  text-align:right ;
+  clear:both;
+}
+#sep > a {
+  margin-left:10px;
+  background-color: #eeeeee;
+  padding:5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-decoration: none;
+}
+#sep > a:hover {
+  background-color: black;
+  color: rgb(255, 210, 0)
+}
+
+code, pre {
+  font-size: large;
+}
+
+pre {
+  background-color: #eeeeee;
+  padding: 5px;
+}
+
+.toptext {
+  font-size: 1.25em;
+  padding: 0 50px 0 50px;
+}
+
+footer {
+  font-size: small;
+  border-top: solid 3px #eeeeee;
+}
