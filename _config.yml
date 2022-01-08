@@ -1,0 +1,11 @@
+title: kurrwong.net
+email: nick@kurrawong.net
+description: >- 
+  The company website of Kurrawong AI.
+baseurl: ""
+url: "https://kurrawong.net"
+twitter_username: jekyllrb
+github_username:  jekyll
+theme: minima
+plugins:
+  - jekyll-feed
