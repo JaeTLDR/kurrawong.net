@@ -100,3 +100,7 @@ footer {
   font-size: small;
   border-top: solid 3px #eeeeee;
 }
+
+p {
+  line-height: 1.5em;
+}
