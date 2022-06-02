@@ -4,17 +4,6 @@
        url('/style/Candara.ttf');
 }
 
-body {    
-  display: grid;
-  grid-template-columns: 1fr 200px 800px 1fr;
-  grid-template-rows: 200px auto;
-  font-family: sans-serif;
-}
-
-#klogo {
-  width: 200px;
-}
-
 #nav {
   list-style-type: none;
   margin-top: 2em;
@@ -27,13 +16,12 @@ h1 {
   font-family: Candara ;
 }
 
-p, li, a {
-  font-family: sans-serif;
-}
-
-
 h2 {
   margin-top: 2em;
+}
+
+p, li, a {
+  font-family: sans-serif;
 }
 
 #container {
@@ -103,4 +91,78 @@ footer {
 
 p {
   line-height: 1.5em;
+}
+
+/* Desktop */
+
+body {    
+  display: grid;
+  grid-template-columns: 1fr 350px 800px 1fr;
+  grid-template-rows: 125px auto;
+  font-family: sans-serif;
+}
+
+#logo {
+  grid-column: 2/4;
+  background-image: url("KurrawongAI_350.png") ;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+#nav {
+  grid-column: 2;
+}
+
+#content {
+  grid-column: 3;
+}
+
+#footer {
+  grid-column: 3; 
+  margin-top: 50px; 
+  border-top:solid 1px black; 
+  padding:20px;
+}
+
+/* Mobile */
+
+@media (max-width: 1000px) {
+
+  body {    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto;
+    font-family: sans-serif;
+  }
+
+  #logo {
+    grid-column: 1;
+    background-image: url("KurrawongAI_250.png") ;
+    background-repeat: no-repeat;
+    height: 100px;    
+  }
+  
+  #nav {
+    grid-column: 1;
+  }
+  
+  #content {
+    grid-column: 1;
+  }
+  
+  #title {
+    display: none;
+  }
+
+  #footer {
+    grid-column: 1; 
+    margin-top: 50px; 
+    border-top:solid 1px black; 
+    padding:20px;
+  }
+
+  #graph {
+    width:200px;
+  }
+
 }
