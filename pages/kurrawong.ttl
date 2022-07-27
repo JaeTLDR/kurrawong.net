@@ -1,0 +1,25 @@
+---
+permalink: /.ttl
+title: kurrawong
+---
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://kurrawong.net>
+    a sdo:Organization ;
+    dcterms:type <http://purl.org/goodrelations/v1#Business> ;
+    sdo:founders <https://orcid.org/0000-0002-8742-7730> ;
+    sdo:name "Kurrawong AI" ;
+    sdo:url "https://kurrawong.net"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a sdo:Person ;
+    sdo:affiliation <https://kurrawong.net> ;
+    sdo:alternateName "Nick" ;
+    sdo:email "nick@kurrawong.net"^^xsd:anyURI ;
+    sdo:jobTitle "Data ARchitect" ;
+    sdo:name "Nicholas J. Car" ;
+    sdo:workLocation <https://linked.data.gov.au/dataset/gnaf/address/GAQLD161268186> ;
+.

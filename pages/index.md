@@ -3,6 +3,9 @@ layout: page
 title: "Kurrawong AI"
 permalink: /
 ---
+<div style="float:right; width: 300px; padding: 10px; margin: 10px; border:solid 5px black; border-radius: 10px; text-align:center;">
+See information about Kurrawong AI in <a href="http://localhost:4000/.ttl">machine-readable (RDF) form</a>.
+</div>
 Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in [Knowledge Graphs](https://en.wikipedia.org/wiki/Knowledge_graph). 
 
 We use KGs for data storage, as a transfer format, when serialised, and as inputs to advanced reasoning and data processing tasks, such as [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning).
