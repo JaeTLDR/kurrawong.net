@@ -4,20 +4,20 @@ title: "Kurrawong AI"
 permalink: /
 ---
 <div style="float:right; width: 300px; padding: 10px; margin: 10px; border:solid 5px black; border-radius: 10px; text-align:center;">
-See information about Kurrawong AI in <a href="http://localhost:4000/.ttl">machine-readable (RDF) form</a>.
+See information about Kurrawong AI in <a href="/.ttl">machine-readable (RDF) form</a>.
 </div>
-Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in [Knowledge Graphs](https://en.wikipedia.org/wiki/Knowledge_graph). 
+Kurrawong AI uses [Knowledge Graphs](https://en.wikipedia.org/wiki/Knowledge_graph) to make data suitable for Artificial Intelligence applications. We are incorporated in Australia but work globally.
 
 We use KGs for data storage, as a transfer format, when serialised, and as inputs to advanced reasoning and data processing tasks, such as [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning).
 
-We model data using the [Semantic Web](https://www.w3.org/standards/semanticweb/) so it's in the richest, most open and most extensibe form data can be.
+We model data using the [Semantic Web](https://www.w3.org/standards/semanticweb/) so it's in the richest, most open and most extensible form data can be.
 
 <h3>Current work</h3>
 
 <section>
   <div class="content hideContent">
     <h4>Queensland Spatial Information Dataset Redesign</h4>
-    <p>Kurrawong AI has recently (June, 2022) completed modelling the Address and Place Names datasets of Queensland and their replation to Cadastral information via a a <a href="https://frontiersi.com.au/">FrontierSI</a> consortium with the following, outputs:</p>
+    <p>Kurrawong AI has recently (June, 2022) completed modelling the Address and Place Names datasets of Queensland and their relationships to Cadastral information via a <a href="https://frontiersi.com.au/">FrontierSI</a> consortium with the following, outputs:</p>
     <ul>
         <li>
             <a href="https://nicholascar.com/qsi-supermodel/supermodel.html">Queensland Spatial Information Supermodel</a>
