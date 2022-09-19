@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:affiliation <https://kurrawong.net> ;
     sdo:alternateName "Nick" ;
     sdo:email "nick@kurrawong.net"^^xsd:anyURI ;
-    sdo:jobTitle "Data ARchitect" ;
+    sdo:jobTitle "Data Architect" ;
     sdo:name "Nicholas J. Car" ;
     sdo:workLocation <https://linked.data.gov.au/dataset/gnaf/address/GAQLD161268186> ;
 .
